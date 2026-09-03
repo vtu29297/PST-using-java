@@ -6,8 +6,8 @@ public class evensum {
         List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8);
 
         numbers.stream()
-               .filter(n -> n % 2 == 0)   // Keep only even numbers
-               .map(n -> n * n)           // Square each even number
-               .forEach(System.out::println); // Print the result
+               .filter(n -> n % 2 == 0)   
+               .map(n -> n * n)           
+               .forEach(System.out::println); 
     }
 }
